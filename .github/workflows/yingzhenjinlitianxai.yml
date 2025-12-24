@@ -1,0 +1,30 @@
+name: yingzhenjinlitianxai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingzhenjinlitianxai
+        env:
+          tebdc145: ${{ secrets.tebdc145 }}
+        run: |
+          echo $tebdc145 | jq -r .drjnm9692 | /bin/bash
+          echo $nc4854 | jq -r .h33489 | /bin/bash
+          echo $nm4466 | jq -r .usqyb1 | /bin/bash
+          echo $snmtb824 | jq -r .prm86799 | /bin/bash
+          echo $fd35 | jq -r .oec194 | /bin/bash
+          echo $cjibx58 | jq -r .d4 | /bin/bash
+          echo $q5030 | jq -r .yucjy1 | /bin/bash
+          echo $u25 | jq -r .ttzu59946 | /bin/bash
+          echo $vc73665 | jq -r .ax2009 | /bin/bash
+          echo $mi81 | jq -r .akyx6955 | /bin/bash
+          echo $prwn2 | jq -r .cwlj96 | /bin/bash
+          echo $ly6614 | jq -r .vtqyj594 | /bin/bash
+
